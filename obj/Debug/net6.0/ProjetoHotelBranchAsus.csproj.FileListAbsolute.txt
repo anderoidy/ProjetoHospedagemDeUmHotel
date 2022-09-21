@@ -1,0 +1,15 @@
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\bin\Debug\net6.0\ProjetoHotelBranchAsus.exe
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\bin\Debug\net6.0\ProjetoHotelBranchAsus.deps.json
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\bin\Debug\net6.0\ProjetoHotelBranchAsus.runtimeconfig.json
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\bin\Debug\net6.0\ProjetoHotelBranchAsus.dll
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\bin\Debug\net6.0\ProjetoHotelBranchAsus.pdb
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\obj\Debug\net6.0\ProjetoHotelBranchAsus.csproj.AssemblyReference.cache
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\obj\Debug\net6.0\ProjetoHotelBranchAsus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\obj\Debug\net6.0\ProjetoHotelBranchAsus.AssemblyInfoInputs.cache
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\obj\Debug\net6.0\ProjetoHotelBranchAsus.AssemblyInfo.cs
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\obj\Debug\net6.0\ProjetoHotelBranchAsus.csproj.CoreCompileInputs.cache
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\obj\Debug\net6.0\ProjetoHotelBranchAsus.dll
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\obj\Debug\net6.0\refint\ProjetoHotelBranchAsus.dll
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\obj\Debug\net6.0\ProjetoHotelBranchAsus.pdb
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\obj\Debug\net6.0\ProjetoHotelBranchAsus.genruntimeconfig.cache
+C:\Users\ander\Documents\ProjetoHotelBranchAsus\ProjetoHospedagemDeUmHotel\obj\Debug\net6.0\ref\ProjetoHotelBranchAsus.dll

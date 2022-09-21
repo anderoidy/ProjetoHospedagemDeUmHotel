@@ -7,23 +7,19 @@ namespace sistemaHospedagemHotel.Models
 {
     public class Pessoa
     {
+        public Pessoa() { }
+
+        public Pessoa(string nomePessoa) {
+            NomePessoa = nomePessoa;
+        }
         
-        public int IdPessoa { get; set; }
-        public string  NomePessoa { get; set; }
-        public string SobreNomePessoa { get; set; }
-         public string NomeCompleto => $"{NomePessoa} {SobreNomePessoa}";
-
-
-        public Pessoa(int idPessoa, string nomePessoa, string sobreNome) {
-            IdPessoa = idPessoa;
+        public Pessoa(string nomePessoa, string sobreNome) {
             NomePessoa = nomePessoa;
             SobreNomePessoa = sobreNome;
         }
-
-         public Pessoa() {
-            
-        }
-    }
-
-   
+        
+        public string? NomePessoa { get; set; }
+        public string? SobreNomePessoa { get; set; }
+        public string? NomeCompleto => $"{NomePessoa} {SobreNomePessoa}".ToUpper();
+    }   
 }

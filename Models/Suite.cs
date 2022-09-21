@@ -7,20 +7,18 @@ namespace sistemaHospedagemHotel.Models
 {
     public class Suite
     {
-        public int IdSuite { get; set; }
-        public int CapacidadeSuite { get; set; }
-        public decimal ValorDiaria { get; set; }
-       
+        public Suite() { }
 
-        public Suite(int idSuite, int capacidadeSuite, decimal valorDiaria) {
-            IdSuite = idSuite;
+        public Suite(string tipoSuite, int capacidadeSuite, decimal valorDiaria) {            
+            TipoSuite = tipoSuite;
             CapacidadeSuite = capacidadeSuite;
-            ValorDiaria = valorDiaria;
-            
+            ValorDiaria = valorDiaria;            
         }
 
-        public Suite() {
+        public string? TipoSuite { get; set; }
+        public int? CapacidadeSuite { get; set; }
+        public decimal ValorDiaria { get; set; }       
 
-        }
+     
     }
 }

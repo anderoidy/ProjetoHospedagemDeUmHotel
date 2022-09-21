@@ -7,35 +7,52 @@ namespace sistemaHospedagemHotel.Models
 {
     public class Reserva
     {
-        List<Pessoa> hospedes = new List<Pessoa>();
-        Suite suite = new Suite();
+        
+        public List<Pessoa> Hospedes = new List<Pessoa>();
+        public Suite Suite = new Suite();
         public int DiasReservados { get; set; }
 
-        public Reserva(int diasReservados) {
+        public Reserva() { }
+
+        public Reserva(int diasReservados)
+        {
             DiasReservados = diasReservados;
         }
 
 
         // Declaracao dos metodos 
-        public void CadastrarHospedes(List<Pessoa> hospedes) {
+        public void CadastrarHospedes(List<Pessoa> hospedes)
+        {
+            if(Suite.CapacidadeSuite >= hospedes.Count)
+            {
+                Hospedes = hospedes;
+            } 
+            else
+            {
+                throw new Exception("A quantidade de Hóspedes nao pode exeder a capacidade da suíte");
+            }
+        }
+
+        public void CadastrarSuite(Suite suite)
+        {
             
+            Suite = suite;
         }
 
-        public void CadastrarSuite(Suite suite) {
-
+        public int ObterQuantidadeHospedes()
+        {
+            return Hospedes.Count;
         }
 
-        public int ObterQuantidadeHospedes() {
-            return 0;
+        public decimal CalcularValorDiaria()
+        {
+            decimal valor = DiasReservados * Suite.ValorDiaria;
+
+            if(DiasReservados >= 10) {
+                valor = valor * 0.90M; 
+            }    
+
+            return valor;
         }
-
-        public decimal CalcularValorDiaria() {
-            return 0;
-        }
-
-
-
-
-
     }
 }
